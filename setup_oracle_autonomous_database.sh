@@ -38,7 +38,7 @@ print_header() {
     echo "║                                                                              ║"
     echo "║                  Developed by: Malek Mohammed Al-Edresi                      ║"
     echo "║                       Advanced Database Solutions                            ║"
-    echo "║                    Professional Database Administration                      ║"
+    echo "║                                                                              ║"
     echo "║                                                                              ║"
     echo "╚══════════════════════════════════════════════════════════════════════════════╝"
     echo -e "${NC}"
