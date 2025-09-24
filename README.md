@@ -41,3 +41,80 @@ Clone this repository:
 git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>
 chmod +x setup_oracle_adb.sh
+```
+
+---
+
+## 🚀 Usage  
+
+Run the script:  
+
+```bash
+./setup_oracle_adb.sh
+```
+
+### Options  
+
+```bash
+-h, --help     Show help  
+-v, --version  Show script version  
+```
+
+---
+
+## ⚙️ Configuration Flow  
+
+1. Container & network setup  
+2. Data and wallet directories  
+3. Password setup (auto-generate or custom)  
+4. Timezone selection  
+5. CPU and memory allocation  
+6. Character set selection  
+7. Port mapping  
+8. Advanced Docker options (health checks, restart, ulimits)  
+9. Review configuration summary  
+10. Automatic setup & container start  
+
+---
+
+## 🔑 Example Connection String  
+
+After successful setup, connect using:  
+
+```text
+jdbc:oracle:thin:@localhost:1521/MYATP_high
+```
+
+---
+
+## 🧩 Advanced Options  
+
+- **Health checks** – Monitor DB container readiness  
+- **Restart policy** – Auto-restart on failures  
+- **Ulimits** – Optimize for high connection workloads  
+
+---
+
+## 📸 Demo (Menu Preview)  
+
+```
+╔══════════════════════════════════════════════════════════════════════════════╗
+║       SETUP ORACLE AUTONOMOUS DATABASE FREE CONTAINER IMAGE VIA DOCKER       ║
+║                     AUTOMATED INSTALLATION SCRIPT                            ║
+║                  Developed by: Malek Mohammed Al-Edresi                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## 👨‍💻 Author  
+
+**Malek Mohammed Al-Edresi**  
+- Advanced Database Solutions  
+- Professional Database Administration  
+
+---
+
+## 📜 License  
+
+This project is licensed under the **MIT License**.  
